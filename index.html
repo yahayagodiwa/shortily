@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>Shortly</title>
+  </head>
+  <body class="bg-white">
+    <!-- NAVIGATION -->
+    <nav class="flex justify-between items-center my-8 mx-8 md:mx-32">
+      <div class="flex gap-4 items-center">
+        <img src="images/logo.svg" alt="" />
+        <ul class="list-none gap-3 hidden md:flex">
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+        </ul>
+      </div>
+      <div class="hidden md:flex gap-3">
+        <button>Login</button>
+        <button class="text-white bg-teal-400 px-4 py-2 rounded-3xl">
+          Sign Up
+        </button>
+       
+      </div>
+      <img src="images/menu.png" class="h-[20px] flex md:hidden">
+    </nav>
+
+    <!-- HERO -->
+
+    <div class="text-lg flex flex-col-reverse md:flex-row items-center justify-center gap-14 md:gap-[400px] ml-8 md:ml-32 mt-14 mb-10 md:mb-20">
+      <div class="w-full md:w-[30vw] text-center md:text-start mr-8">
+        <h1 class="text-3xl font-extrabold">More than just shorter links</h1>
+        <p>
+          Build your brand’s recognition and get detailed insights on how your
+          links are performing.
+        </p>
+        <button class="text-white px-4 py-2 rounded-3xl bg-teal-400 my-5">
+          Get Started
+        </button>
+      </div>
+      <div>
+        <img
+          src="images/illustration-working.svg"
+          alt="working"
+          class="h-[200px] md:h-[450px]"
+        />
+      </div>
+    </div>
+    <section class="bg-stone-300 pb-10 md:pb-20 relative">
+      <div class="mx-8 md:mx-32 flex flex-col justify-center items-center">
+        <div
+          class="bg-[rgb(58,48,84)] bg-cover p-4 relative bottom-8 flex flex-col md:flex-row gap-3 rounded-lg"
+        >
+          <input
+            type="search"
+            class="p-1 md:p-2 w-[70vw] rounded-md"
+            placeholder="Shorten a link here..."
+          />
+          <button class="text-white bg-teal-400 px-4 py-1 md:py-2 rounded-xl">Shorten It!</button>
+        </div>
+        <div
+          class="text-lg text-center flex flex-col items-center justify-center w-full md:w-[20vw]"
+        >
+          <div class=" ">
+            <h2 class="text-2xl font-bold">Advanced Statistics</h2>
+            <p>
+              Track how your links are performing across the web with our
+              advanced statistics dashboard.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-col md:flex-row justify-center gap-4 md:gap-14 py-16">
+          <div class="bg-white p-4 rounded-md w-full md:w-[20vw] relative mb-0 md:mb-16">
+            <img src="images/icon-brand-recognition.svg" alt="" class="bg-[rgb(58,48,84)] p-3 rounded-full relative bottom-12">
+            <h2 class="text-2xl font-bold -mt-8">Brand Recognition</h2>
+            <p class="text-lg">
+              Boost your brand recognition with each click. Generic links don’t 
+              mean a thing. Branded links help instil confidence in your content.
+            </p>
+          </div>
+
+          <div class="bg-white p-4 rounded-md w-full md:w-[20vw] relative my-8">
+            <img src="images/icon-detailed-records.svg" alt=""  class="bg-[rgb(58,48,84)] p-3 rounded-full relative bottom-12">
+            <h2 class="text-lg font-bold -mt-8"> Detailed Records</h2>
+            <p>
+              Gain insights into who is clicking your links. Knowing when and where 
+              people engage with your content helps inform better decisions.
+            </p>
+          </div>
+
+          <div class="bg-white p-4 rounded-md w-full md:w-[20vw] relative mt-4 md:mt-16">
+            <img src="images/icon-fully-customizable.svg" alt=""  class="bg-[rgb(58,48,84)] p-3 rounded-full relative bottom-12">
+            <h2 class="text-lg font-bold -mt-8">Fully Customizable</h2>
+            <p>
+              Improve brand awareness and content discoverability through customizable 
+              links, supercharging audience engagement.
+            
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SUB FOOTER -->
+
+    <section class="bg-[rgb(58,48,84)] px-8 md:px-32 py-14 flex flex-col justify-center text-center">
+      <h2 class="text-2xl font-bold text-white"> Boost your links today</h2>
+      <button class="bg-teal-400 text-white px-4 py-2 rounded-3xl w-[50vw] md:w-[10vw] mx-auto mt-3"> Get Started</button>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class=" text-center md:text-start flex flex-col md:flex-row gap-6 justify-between items-center px-32 py-16 bg-gray-950">
+      <img src="images/logo.svg" alt="" class="self-start bg-white">
+      <div>
+        <h2 class="text-white">Features</h2>
+        <ul class="text-gray-400">
+          <li> Link Shortening</li>
+          <li> Branded Links</li>
+          <li>Analytics</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-white">Resources</h2>
+        <ul class="text-gray-400">
+          <li>Blog</li>
+          <li>Developers</li>
+          <li>Analytics</li>
+          <li>Support</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2 class="text-white">Company</h2>
+        <ul class="text-gray-400">
+          <li>About</li>
+          <li>Our Team</li>
+          <li>Careers</li>
+          <li> Contact</li>
+        </ul>
+      </div>
+      <div class="flex gap-4 self-start">
+        <img src="images/icon-facebook.svg" alt="">
+        <img src="images/icon-twitter.svg" alt="">
+        <img src="images/icon-pinterest.svg" alt="">
+        <img src="images/icon-instagram.svg" alt="">
+      </div>
+    </footer>
+  </body>
+</html>
